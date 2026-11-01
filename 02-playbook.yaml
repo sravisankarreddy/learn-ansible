@@ -1,0 +1,6 @@
+- name: debug module 
+  hosts: local 
+  connection: local 
+  tasks:
+    ansible.builtin.debug:
+      msg: Hello Ansible...
