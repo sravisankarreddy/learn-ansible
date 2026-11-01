@@ -1,0 +1,17 @@
+<student>
+    <firstname>ravi sankar</firstname>
+    <lastname>reddy</lastname>
+    <dob>10-10-1000</dob>
+    <addresses>
+        <address type="temprary">
+            <doornum>100-2000</doornum>
+            <streetname>Gandi nagar</streetname>
+            <city>hyderabad</city>
+        </address>
+        <address type="permanent">
+            <doornum>100-2000</doornum>
+            <streetname>Gandi nagar</streetname>
+            <city>hyderabad</city>
+        </address>
+    </addresses>
+</student>

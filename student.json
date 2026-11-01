@@ -1,0 +1,25 @@
+{
+    "firstName": "Ravi Sankara",
+    "lastName": "Reddy",
+    "dob": "10-10-1000",
+    "addresses": [
+        {
+            "type": "permanent",
+            "doorno": "10-100",
+            "streetname":  "Gandi Nagar",
+            "city": "hyderabad"
+        },
+        {
+            "type": "temporary",
+            "doorno": "10-100",
+            "streetname":  "Gandi Nagar",
+            "city": "hyderabad"
+        }
+    ],
+    "skills":  {
+        "OS": "linux",
+        "IDE": "VsCode",
+        "CM": "ansible"
+
+    }
+}

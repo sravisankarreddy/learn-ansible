@@ -1,0 +1,37 @@
+- first_name: "ravi sankar"
+  lastname: "reddy"
+  dob: "10-10-1000"
+  # is for list
+  addresses:
+  - type: permanent
+    doorNu: 11-1000,
+    streetName: gandi nagar,
+    city: hyderabad
+  - type: temporary
+    doorNu: 11-1000,
+    streetName: gandi nagar,
+    city: hyderabad
+  skills: 
+    OS: linux
+    IDE: Vscode
+    cm: ansible
+
+# overal yaml type as sting ''-''
+
+- first_name: "ravi sankar"
+  lastname: "reddy"
+  dob: "10-10-1000"
+  # is for list
+  addresses:
+  - type: permanent
+    doorNu: 11-1000,
+    streetName: gandi nagar,
+    city: hyderabad
+  - type: temporary
+    doorNu: 11-1000,
+    streetName: gandi nagar,
+    city: hyderabad
+  skills: 
+    OS: linux
+    IDE: Vscode
+    cm: ansible
