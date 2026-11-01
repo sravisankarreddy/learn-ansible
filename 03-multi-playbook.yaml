@@ -1,0 +1,15 @@
+- name: PLAY-1
+  hosts: local 
+  connection: local 
+  tasks:
+    - name: print PLAY-1 from Task-1
+      ansible.builtin.debug:
+        msg: "Hello shell-script"
+
+- name: PLAY-2
+  hosts: local 
+  connection: local 
+  tasks:
+    - name: print PLAY-2 from Task-1
+      ansible.builtin.debug:
+        msg: "Hello ansible"
