@@ -1,0 +1,11 @@
+- name:  demo on variables on play levl
+  hosts: local 
+  connection: local 
+  vars:
+    trainer: Siva
+    course: DevSecOps
+    duration: "120 Hours"
+  tasks:
+    - name:  print the variables
+      debug:
+        msg: "I am Learning  {{course}} from  {{ trainer }} Duration: {{ duration }}"
